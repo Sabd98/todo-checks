@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { allPages } from './data/pages'
-import { Checkbox } from './components/CHeckbox'
+import { Checkbox } from './components/Checkbox'
 
 function App() {
   const [pages, setPages] = useState(allPages)
